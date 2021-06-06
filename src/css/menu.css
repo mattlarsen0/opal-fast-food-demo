@@ -1,0 +1,33 @@
+
+.fast-food-menu {
+    font-size: 16px;
+}
+
+.fast-food-menu .menu-item {
+    width: 400px;
+    background: rgb(158, 179, 206);
+    padding: 10px;
+}
+
+.fast-food-menu .menu-item:nth-child(2n) {
+    background: rgb(191, 215, 231);
+}
+
+.fast-food-menu .item-quantity-button {
+    width: 50px;
+    height: 50px;
+    background: rgb(161, 173, 189);
+    border: 1px solid #000;
+    border-radius: 50%;
+    font-size: 2rem;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.fast-food-menu .orderable-option {
+    margin: 10px
+}
+
+.submit-order {
+    margin: 10px
+}
